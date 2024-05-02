@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+
+body {
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    color: #333333;
+    letter-spacing: .1rem;
+    line-height: 200%;
+  }
+
+p { 
+    margin: 2em 0px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 28px;
+    padding-top: 350px;
+}
+
+/* ヘッダー */
+header {
+  min-height: 100%;
+  width: 100%;
+  color: white;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  text-align: center;
+  background: url(https://utriplife.com/wp-content/uploads/2018/07/20180729165032.jpg) center / cover;
+  height: 750px;
+}
+
+.toumei {
+  background-color: rgba(150,150,150,0.500);
+  height: 750px;
+}
+
+/*　終わり */
+
+
+
+.nav {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+ ul {
+    font-size: 15px;
+    font-weight: lighter;
+    list-style: none;
+    display: flex;
+  }
+
+ li {
+    margin-left: 35px;
+}
+
+
+ .menu a {
+    text-decoration:none;
+    color: 333333;
+    position: relative;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    }
+
+.opening {
+    text-align: center;
+}
+
+.contents {
+    text-align: center;
+    color: white;
+  }
+
+.inquiry {
+    text-align: center;
+    color: #333333;
+  }
+
+.profile {
+  text-align: center;
+    color: #333333;
+  }
+
+
+footer {
+    text-align: center;
+    color: #333333;
+  } 
+  
+footer a {
+    text-decoration:none;
+    color: #333333;
+    position: relative;
+}
+
+
+a.btn03 {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 400px;
+	margin: auto;
+	padding: 0.5rem 4.5rem;
+	font-weight: right;
+	border: 1px solid #333333;
+	color: #333333;
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+a.btn03:hover {
+	color: #fff;
+	background: #333333;
+}
+
+
+
+L CSSResult Skip Results Iframe
+EDIT ON
+
+.table{
+  border-collapse: separate;
+}
+.table-img,
+.table-txt{
+  font-size: 16px;
+  vertical-align: top;
+  text-align: left; 
+  width: 150px;
+  height: 120px;
+}
+.table-img{
+  background:#EEEEEE;
+  text-align: center;
+}
+.table-img > img{
+  width: 50%;
+}
+.table-txt{
+  background: #EEEEEE;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+  width:50%;
+   margin:0 auto;
+}
+
+.slider img {
+   width:80%;/*スライダー内の画像を横幅100%に*/
+   height:auto;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+   margin:20 10px;
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+   position: absolute;/*絶対配置にする*/
+   top: 42%;
+   cursor: pointer;/*マウスカーソルを指マークに*/
+   outline: none;/*クリックをしたら出てくる枠線を消す*/
+   border-top: 2px solid #666;/*矢印の色*/
+   border-right: 2px solid #666;/*矢印の色*/
+   height: 15px;
+   width: 15px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+   left: -1.5%;
+   transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+   right: -1.5%;
+   transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+   text-align:center;
+ margin:20px 0 0 0;
+}
+
+.slick-dots li {
+   display:inline-block;
+ margin:0 5px;
+}
+
+.slick-dots button {
+   color: transparent;
+   outline: none;
+   width:8px;/*ドットボタンのサイズ*/
+   height:8px;/*ドットボタンのサイズ*/
+   display:block;
+   border-radius:50%;
+   background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+   background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+body{
+ background:#eee;
+}
+
+h2,p {
+   text-align:center;
+   padding:50px;
+}
+
+ul{
+ margin: 100px;
+ padding: 50px;
+ list-style: none;
+}
+
+a{
+ color: #333;
+}
+
+a:hover,
+a:active{
+ text-decoration: none;
+}
+
+/*終わり*/
+
+/*背景波線*/
+
+.container {
+  overflow: hidden;
+}
+
+.box01 {
+  color: #333;
+  background: white;
+  border-bottom-left-radius: 800px 200px;
+  border-bottom-right-radius: 800px 200px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 0px;
+}
+
+.box02 {
+  color: #333;
+  background: #EEEEEE;
+  border-bottom-left-radius: 800px 200px;
+  border-bottom-right-radius: 800px 200px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.box03 {
+  color: #333;
+  background: white;
+  border-bottom-left-radius: 800px 200px;
+  border-bottom-right-radius: 800px 200px;
+  border-top-right-radius: 800px 200px;
+  border-top-left-radius: 800px 200px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.box04 {
+  color: #333;
+ 
+}
+
+.box05 {
+  color: #333;
+  background: white;
+  border-top-right-radius: 800px 200px;
+  border-top-left-radius: 800px 200px;
+  margin-left: -100px;
+  margin-right: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+/*波線終わり*/
+
+
