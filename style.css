@@ -369,7 +369,7 @@ svg{
     flex-direction: column;
     cursor: pointer;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 980px) {
     .hamburger {
       display: flex;
     }
@@ -411,7 +411,7 @@ svg{
   .nav-menu {
     width: 500px;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 980px) {
     .nav-menu {
       position: fixed;
       width: 280px;
@@ -429,14 +429,14 @@ svg{
     display: flex;
     justify-content: space-evenly;
   }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 980px) {
     .nav-menu ul {
       margin-top: 100px;
       display: block;
     }
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 980px) {
     .nav-menu li {
       margin-bottom: 30px;
     }
@@ -452,3 +452,4 @@ svg{
     left: 0;
   }
   
+  /*終わり/*

@@ -74,32 +74,73 @@ header {
 }
 
 .contents {
-    text-align: center;
-    color: white;
+    text-align: left;
+    color: #333333;
+    background-color: #F7F7F7;
   }
 
-.inquiry {
-    text-align: center;
-    color: #fff;
-  }
-
-.profile {
-  text-align: center;
-    color: #fff;
-  }
-
-
-footer {
-    text-align: center;
-    color: #fff;
-  } 
-  
-footer a {
-    text-decoration:none;
-    color: #fff;
+  .privacy {
     position: relative;
-}
-
+    max-width: 2000px;
+    margin: auto;
+    background: white;
+    padding-bottom: 0px;
+    font-size: 13px;
+    }
+  
+    a {
+      text-decoration:none;
+    }
+  
+    .privacy a:hover {
+      text-decoration: underline;
+      }
+  
+  
+  
+  .container01 {
+      padding-top: 50px;
+      padding-bottom: 100px;
+      background-color: #fff;
+  }
+  
+  .container02 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+  }
+  
+  .container03 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F7F7F7;
+  }
+  
+  footer {
+    font-size: 12px;
+      text-align: center;
+      color: #333333;
+      max-width: 2000px;
+      margin: auto;
+      background: white;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      }
+  
+    
+  footer a {
+      text-decoration:none;
+      color: #333333;
+      position: relative;
+      max-width: 2000px;
+      margin: auto;
+      background: white;
+      }
+  
 
 a.btn03 {
 	display: block;
@@ -137,21 +178,21 @@ a.btn03:hover {
 .box01 {
   color: #333;
   background: white;
-  border-bottom-left-radius: 800px 200px;
-  border-bottom-right-radius: 800px 200px;
+  border-bottom-left-radius: 0px 0px;
+  border-bottom-right-radius: 0px 0px;
   margin-left: -100px;
   margin-right: -100px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 600px;
+  padding-bottom: 500px;
   padding-top: 0px;
 }
 
 .box02 {
   color: #333;
-  background: #EEEEEE;
-  border-bottom-left-radius: 800px 200px;
-  border-bottom-right-radius: 800px 200px;
+  background: white;
+  border-bottom-left-radius: 0px 0px;
+  border-bottom-right-radius: 0px 0px;
   margin-left: -100px;
   margin-right: -100px;
   padding-left: 100px;
@@ -162,10 +203,10 @@ a.btn03:hover {
 .box03 {
   color: #333;
   background: white;
-  border-bottom-left-radius: 800px 200px;
-  border-bottom-right-radius: 800px 200px;
-  border-top-right-radius: 800px 200px;
-  border-top-left-radius: 800px 200px;
+  border-bottom-left-radius: 0px 0px;
+  border-bottom-right-radius: 0px 20px;
+  border-top-right-radius: 0px 0px;
+  border-top-left-radius: 0px 0px;
   margin-left: -100px;
   margin-right: -100px;
   padding-left: 100px;
@@ -181,8 +222,8 @@ a.btn03:hover {
 .box05 {
   color: #333;
   background: white;
-  border-top-right-radius: 800px 200px;
-  border-top-left-radius: 800px 200px;
+  border-top-right-radius: 0px 0px;
+  border-top-left-radius: 0px 0px;
   margin-left: -100px;
   margin-right: -100px;
   padding-left: 100px;
@@ -389,3 +430,38 @@ ul.list{
 
 /*リスト終わり*/
 
+
+/* nami */
+.wave-svg-inline{
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+svg{
+  width: 100%;
+  height: 170px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  fill: #F7F7F7; /* 色を変更 */
+}
+
+
+.wave-svg-inline02{
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+.wave-white{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  fill: white; /* 色を変更 */
+}
+
+
+/*owari*/
