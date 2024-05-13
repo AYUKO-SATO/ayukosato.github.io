@@ -56,7 +56,7 @@ header {
 
  li {
     margin-left: 35px;
-}
+}  
 
 
  .menu a {
@@ -105,19 +105,28 @@ header {
   }
   
   .container02 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 200px;
-    padding-right: 200px;
-    background-color: #fff;
-    width: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75vw;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color:white;
     height: auto;
   }
   
   .container03 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #F7F7F7;
+    display: flex;  
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 0px;
+    background-color: skyblue;
+    width: auto;
+    height: 650px;
   }
   
   footer {
@@ -180,12 +189,13 @@ a.btn03:hover {
   background: white;
   border-bottom-left-radius: 0px 0px;
   border-bottom-right-radius: 0px 0px;
-  margin-left: -100px;
-  margin-right: -100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 500px;
+  margin-left: 0px;
+  margin-right: 0x;
+  padding-left: 0px;
+  padding-right: 0x;
+  padding-bottom: 0px;
   padding-top: 0px;
+  box-sizing: border-box;
 }
 
 .box02 {
@@ -193,11 +203,11 @@ a.btn03:hover {
   background: white;
   border-bottom-left-radius: 0px 0px;
   border-bottom-right-radius: 0px 0px;
-  margin-left: -100px;
-  margin-right: -100px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: px;
+  padding-bottom: 0px;
 }
 
 .box03 {
@@ -284,17 +294,24 @@ a.btn03:hover {
 /* 画像天地終わり */
 
 
+
 /*見出しボックス*/
 
 .boxblue{
   border: 1px solid #5FB9F5;
   border-radius: 2px;
-  position: absolute;
-  left: 250px;
-  bottom: -300px;  
-  margin: 10;
-  padding: 1em;
-  margin-top: 3em;
+  position: relative;
+  height: auto;
+  width: 450px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
 }
 
 .boxblue h3{
@@ -312,42 +329,8 @@ a.btn03:hover {
   font-weight: 200;
 }
 .boxblue .inner{
-  padding: 0.7em 9em 0.5em 0.5em;
+  padding: 0.7em 0em 0.5em 0.5em;
 }
-
-
-
-
-.boxblue03{
-  border: 1px solid #5FB9F5;
-  border-radius: 2px;
-  position: absolute;
-  left: 250px;
-  bottom: -550px;  
-  margin: 10;
-  padding: 1em;
-  margin-top: 3em;
-}
-
-.boxblue03 h3{
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: -1.2em;
-  margin-left: 1em;
-}
-.boxblue03 span{
-  padding: 0 .5em;
-  background: #FFF;
-  color: #5FB9F5;
-  font-size: 14px;
-  font-weight: 200;
-}
-.boxblue03 .inner{
-  padding: 0.7em 1em 0.5em 0.5em;
-}
-
-
 
 
 
@@ -355,12 +338,18 @@ a.btn03:hover {
 .boxblue02{
   border: 1px solid #5FB9F5;
   border-radius: 2px;
-  position: absolute;
-  left: 720px;
-  bottom: -300px;  
-  margin: 10;
-  padding: 1em;
-  margin-top: 3em;
+  position: relative;
+  height: auto;
+  width: 450px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
 }
 
 .boxblue02 h3{
@@ -378,10 +367,45 @@ a.btn03:hover {
   font-weight: 200;
 }
 .boxblue02 .inner{
-  padding: 0.7em 5em 0.5em 0.5em;
+  padding: 0.7em 0em 0.5em 0.5em;
 }
 
 
+
+
+.boxblue03{
+  border: 1px solid #5FB9F5;
+  border-radius: 2px;
+  position: relative;
+  height: auto;
+  width: 450px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.boxblue03 h3{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -1.2em;
+  margin-left: 1em;
+}
+.boxblue03 span{
+  padding: 0 .5em;
+  background: #FFF;
+  color: #5FB9F5;
+  font-size: 14px;
+  font-weight: 200;
+}
+.boxblue03 .inner{
+  padding: 0.7em 0em 0.5em 0.5em;
+}
 
 
 
@@ -390,12 +414,17 @@ a.btn03:hover {
 .boxblue04{
   border: 1px solid #5FB9F5;
   border-radius: 2px;
-  position: absolute;
-  left: 720px;
-  bottom: -550px;  
-  margin: 10;
-  padding: 1em;
-  margin-top: 3em;
+  position: relative;
+  height: auto;
+  width: 450px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .boxblue04 h3{
@@ -404,6 +433,7 @@ a.btn03:hover {
   left: 0;
   top: -1.2em;
   margin-left: 1em;
+  width: 31.5vw;
 }
 .boxblue04 span{
   padding: 0 .5em;
@@ -411,10 +441,11 @@ a.btn03:hover {
   color: #5FB9F5;
   font-size: 14px;
   font-weight: 200;
+  width: 31.5vw;
 }
 .boxblue04 .inner{
-  padding: 0.7em 10.5em 0.5em 0.5em;
-}
+    padding: 0.7em 0em 0.5em 0.5em;
+  }
 
 /*見出しボックス終わり*/
 
@@ -465,3 +496,5 @@ svg{
 
 
 /*owari*/
+
+
