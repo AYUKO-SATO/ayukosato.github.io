@@ -10,14 +10,26 @@ body {
   
   }
 
-p { 
-    margin: 2em 0px;
+  p { 
+    text-align: center;
+    margin: 2em 40px;
+    color: #333;
 }
-
 h1 {
     font-weight: bold;
     font-size: 28px;
     padding-top: 200px;
+}
+
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #333;
+  letter-spacing: 0.2rem;
 }
 
 
@@ -27,10 +39,9 @@ header {
     width: 100%;
     color: #333333;
     position: relative;
-    z-index: 1;
     background-color: white;
     text-align: center;
-    height: 400px;
+    height: 300px;
   }
   
   /*　終わり */
@@ -90,12 +101,12 @@ header {
   
     a {
       text-decoration:none;
+      color: #333333;
     }
   
     .privacy a:hover {
       text-decoration: underline;
       }
-  
   
   
   .container01 {
@@ -110,7 +121,7 @@ header {
     justify-content: center;
     width: 75vw;
     margin: auto;
-    padding-top: 150px;
+    padding-top: 20px;
     padding-bottom: 50px;
     padding-left: 0px;
     padding-right: 0px;
@@ -119,14 +130,9 @@ header {
   }
   
   .container03 {
-    display: flex;  
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-    padding-right: 0px;
-    background-color: skyblue;
-    width: auto;
-    height: 650px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F7F7F7;
   }
   
   footer {
@@ -151,24 +157,28 @@ header {
       }
   
 
-a.btn03 {
-	display: block;
-	text-align: center;
-	vertical-align: middle;
-	text-decoration: none;
-	width: 400px;
-	margin: auto;
-	padding: 0.5rem 4.5rem;
-	font-weight: right;
-	border: 1px solid #333333;
-	color: #333333;
-	border-radius: 100vh;
-	transition: 0.5s;
-}
-a.btn03:hover {
-	color: #fff;
-	background: #333333;
-}
+      a.btn03 {
+        display: block;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding: 0.5rem 4.5rem;
+        font-weight: right;
+        border: 1px solid #333333;
+        color: #333333;
+        border-radius: 100vh;
+        transition: 0.5s;
+      }
+      a.btn03:hover {
+        color: #fff;
+        background: #333333;
+      }
+      
 
 
 
@@ -243,55 +253,6 @@ a.btn03:hover {
 
 /*波線終わり*/
 
-
-/* 横並び */
-
-.flex {
-  display: flex; /*横並び*/
-}
-.flex .image {
-  width: 450px; /*画像サイズ指定*/
-  margin: 100;
-  padding: 100;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 250px;
-  margin: 0;
-}
-.flex .text {
-  text-align: left;
-  margin: 0 0 0 280px;
-  padding: 0;
-}
-
-/* 横並び終わり */
-
-
-/* 画像を天地中央表示 */
-
-.flex .image {
-  overflow: hidden;
-  position: relative;
-}
-.flex .image::before {
-  content: "";
-  display: block;
-  padding-top: 58%;
-}
-.flex .image img {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 100;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-/* 画像天地終わり */
 
 
 
@@ -498,3 +459,166 @@ svg{
 /*owari*/
 
 
+.backcontainer {
+  position: relative;
+    max-width: 2000px;
+    margin: auto;
+    background: white;
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+
+
+/*profile*/
+
+
+
+.container10 {
+  z-index: 2;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color:white;
+  height: auto;
+}
+
+p.sample img {
+  width: 450px;
+  }
+
+.details {
+  margin-top: 20px;
+}
+
+/*終わり/*
+
+
+@media screen and （max-width: 768px） {
+  /* 768px以下の画面サイズで適用されるスタイル */
+  .row{
+    flex-direction: column;
+}
+  }
+  
+  @media screen and （min-width: 769px） and （max-width: 1024px） {
+  /* 769px~1024pxの画面サイズで適用されるスタイル */
+  }
+  
+  @media screen and （min-width: 1025px） {
+  /* 1025px以上の画面サイズで適用されるスタイル */
+  }
+  /*終わり*/
+
+
+
+
+
+
+
+  /*ハンバーガーメニュー*/
+  .hamburger {
+    display: none;
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 980px) {
+    .hamburger {
+      display: flex;
+    }
+  }
+  .hamburger .bar {
+    width: 40px;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+  }
+  
+  .hamburger .bar-top {
+    transform: translate(0, -12px);
+  }
+  
+  .hamburger .bar-bottom {
+    transform: translate(0, 12px);
+  }
+  
+  .checkbox:checked ~ .hamburger .bar-middle {
+    opacity: 0;
+  }
+  
+  .checkbox:checked ~ .hamburger .bar-top {
+    transform: translate(0, 0) rotate(45deg);
+  }
+  
+  .checkbox:checked ~ .hamburger .bar-bottom {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .nav-menu {
+    width: 500px;
+  }
+  @media screen and (max-width: 980px) {
+    .nav-menu {
+      position: fixed;
+      width: 280px;
+      height: 100%;
+      background: #000;
+      opacity: 0.8;
+      color: #fff;
+      top: 0;
+      left: -100%;
+      transition: all 0.5s;
+    }
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media screen and (max-width: 980px) {
+    .nav-menu ul {
+      margin-top: 100px;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    .nav-menu li {
+      margin-bottom: 30px;
+    }
+  }
+  
+  
+  .nav-menu a {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .checkbox:checked ~ .nav-menu {
+    left: 0;
+  }
+  
+  /*終わり*/
+
+
+/*slide*/
+
+.slide {
+  height: auto;
+  width: auto;
+}
