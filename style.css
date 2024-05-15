@@ -182,11 +182,11 @@ footer {
   font-size: 12px;
     text-align: center;
     color: #333333;
-    max-width: 2000px;
     margin: auto;
     background: white;
     padding-top: 0px;
     padding-bottom: 10px;
+    max-width: 100%;
     }
 
   
@@ -194,7 +194,7 @@ footer a {
     text-decoration:none;
     color: #333333;
     position: relative;
-    max-width: 2000px;
+    max-width: 100%;
     margin: auto;
     background: white;
     }
@@ -296,19 +296,74 @@ svg{
 
 
 /*メディアクエリ*/
-@media screen and （max-width: 768px） {
-  /* 768px以下の画面サイズで適用されるスタイル */
-  .row{
-    flex-direction: column;
+@media screen and (max-width: 980px) {
+  /* 1000px以下の画面サイズで適用されるスタイル */
+
+
+
+  p { 
+    text-align: center;
+    margin: 2em 30px;
+    color: #333;
 }
+
+body {
+font-size: 30px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 45px;
+    padding-top: 350px;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #333;
+  letter-spacing: 0.2rem;
+}
+
+h3 {
+  font-size: 30px;
+  padding-top: 50px;
+  text-decoration: none;
+
+}
+
+.table-img{
+ text-align: center;
+ vertical-align: middle;
+}
+.table-txt{
+  font-size: 23px;
+  vertical-align: middle;
+  text-align: left; 
+  width: 150px;
+  height: 130px;
+  letter-spacing: 0.1rem;
+  line-height: 160%;
+}
+
+
+
   }
   
-  @media screen and （min-width: 769px） and （max-width: 1024px） {
+  
+
+  {
   /* 769px~1024pxの画面サイズで適用されるスタイル */
+ 
   }
   
   @media screen and （min-width: 1025px） {
   /* 1025px以上の画面サイズで適用されるスタイル */
+
+
+
   }
   /*終わり*/
 
@@ -420,10 +475,24 @@ svg{
   .swiper {
   position: relative; 
   width: 80%;
-  height: 600px;
+  height: 100%;
   padding-left: 0px;
-  padding-right: 10px;
+  padding-right: 0px;
 }
+
+
+
+.swiper-container,
+.swiper-slide {
+   height: 100vh;
+}
+.swiper-slide > img {
+   object-fit: cover; /* IE: not support */
+   width: 100%;
+   height: 100%;
+}
+
+
 
 
 .swiper:before {
@@ -452,3 +521,5 @@ svg{
 
 
 /*owari*/
+
+
