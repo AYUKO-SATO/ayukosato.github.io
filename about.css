@@ -286,10 +286,11 @@ header {
   padding: 0 .5em;
   background: #FFF;
   color: #5FB9F5;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 200;
 }
 .boxblue .inner{
+  font-size: 20px;
   padding: 0.7em 0em 0.5em 0.5em;
 }
 
@@ -328,6 +329,7 @@ header {
   font-weight: 200;
 }
 .boxblue02 .inner{
+  font-size: 20px;
   padding: 0.7em 0em 0.5em 0.5em;
 }
 
@@ -366,6 +368,7 @@ header {
 }
 .boxblue03 .inner{
   padding: 0.7em 0em 0.5em 0.5em;
+  font-size: 20px;
 }
 
 
@@ -406,6 +409,7 @@ header {
 }
 .boxblue04 .inner{
     padding: 0.7em 0em 0.5em 0.5em;
+    font-size: 20px;
   }
 
 /*見出しボックス終わり*/
@@ -495,15 +499,221 @@ p.sample img {
   margin-top: 20px;
 }
 
-/*終わり/*
+/*終わり*/
 
 
-@media screen and （max-width: 768px） {
-  /* 768px以下の画面サイズで適用されるスタイル */
+@media screen and (max-width: 980px) {
+  /* 980px以下の画面サイズで適用されるスタイル */
   .row{
     flex-direction: column;
 }
+
+p { 
+  text-align: center;
+  margin: 2em 20px;
+  color: #333;
+}
+
+body {
+font-size: 30px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 45px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+h2 {
+font-weight: bold;
+text-align: center;
+font-size: 50px;
+padding-top: 20px;
+padding-bottom: 50px;
+color: #333;
+letter-spacing: 0.2rem;
+}
+
+/*見出しボックス*/
+
+.boxblue{
+  border: 1px solid #5FB9F5;
+  border-radius: 2px;
+  position: relative;
+  height: auto;
+  width: 500px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.boxblue h3{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -2em;
+  margin-left: 1em;
+}
+.boxblue span{
+  padding: 0 .5em;
+  background: #FFF;
+  color: #5FB9F5;
+  font-size: 20px;
+  font-weight: 200;
+}
+.boxblue .inner{
+  padding: 0.7em 0em 0.5em 0.5em;
+}
+
+
+
+
+.boxblue02{
+  border: 1px solid #5FB9F5;
+  border-radius: 2px;
+  position: relative;
+  height: auto;
+  width: 500px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.boxblue02 h3{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -2em;
+  margin-left: 1em;
+}
+.boxblue02 span{
+  padding: 0 .5em;
+  background: #FFF;
+  color: #5FB9F5;
+  font-size: 20px;
+  font-weight: 200;
+}
+.boxblue02 .inner{
+  padding: 0.7em 0em 0.5em 0.5em;
+}
+
+
+
+
+.boxblue03{
+  border: 1px solid #5FB9F5;
+  border-radius: 2px;
+  position: relative;
+  height: auto;
+  width: 500px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.boxblue03 h3{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -2em;
+  margin-left: 1em;
+}
+.boxblue03 span{
+  padding: 0 .5em;
+  background: #FFF;
+  color: #5FB9F5;
+  font-size: 20px;
+  font-weight: 200;
+}
+.boxblue03 .inner{
+  padding: 0.7em 0em 0.5em 0.5em;
+}
+
+
+
+
+
+.boxblue04{
+  border: 1px solid #5FB9F5;
+  border-radius: 2px;
+  position: relative;
+  height: auto;
+  width: 500px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.boxblue04 h3{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -2em;
+  margin-left: 1em;
+  width: 31.5vw;
+}
+.boxblue04 span{
+  padding: 0 .5em;
+  background: #FFF;
+  color: #5FB9F5;
+  font-size: 20px;
+  font-weight: 200;
+  width: 31.5vw;
+}
+.boxblue04 .inner{
+    padding: 0.7em 0em 0.5em 0.5em;
   }
+
+/*見出しボックス終わり*/
+
+.table-img{
+text-align: center;
+vertical-align: middle;
+}
+.table-txt{
+font-size: 23px;
+vertical-align: middle;
+text-align: left; 
+width: 150px;
+height: 130px;
+letter-spacing: 0.1rem;
+line-height: 160%;
+}
+
+
+ul.list{
+  margin: auto;
+  display: block;
+  list-style-type: disc;/* リストの左側に黒丸 */
+  font-size: 23px;
+}
+
+}
+
+
   
   @media screen and （min-width: 769px） and （max-width: 1024px） {
   /* 769px~1024pxの画面サイズで適用されるスタイル */
