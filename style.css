@@ -515,3 +515,44 @@ h3 {
 
 
 
+/*linkhover*/
+
+.image_link{
+  display:block; 
+  position:relative;
+  text-decoration:none;
+ }
+ .image_link img{
+   display:block;
+   width:100%;
+   transition:0.3s;
+ }
+ .image_link:before{
+   content:"VIEW MORE";
+   display:block;
+   color: #333;
+   line-height:48px;
+   width:180px;
+   border:solid 1px #333;
+   border-radius:2px;
+   text-align:center;
+   position:absolute;
+   top:50%;
+   left:50%;
+   margin-top:-1em;
+   margin-left:-90px;
+   opacity:0;
+   z-index:3;
+   transition:0.3s;
+   font-weight:bold;
+   letter-spacing:0.2em;
+ }
+ .image_link:hover img{
+   filter:blur(5px);
+ }
+ .image_link:hover:before{
+   opacity:1;
+   margin-top:-0.5em;
+ }
+
+ /*end*/
