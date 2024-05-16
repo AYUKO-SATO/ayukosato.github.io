@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+
+body {
+  background-color: #fff;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  color: #333333;
+  letter-spacing: .1rem;
+  line-height: 250%;
+  
+  }
+
+  p { 
+    text-align: left;
+    font-size: 16px;
+    margin: -0.5em 30px;
+    color: #333;
+}
+h1 {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #333;
+  letter-spacing: 0.2rem;
+}
+
+
+/* ヘッダー */
+header {
+    min-height: 100%;
+    width: 100%;
+    color: #333333;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    height: 200px;
+  }
+  
+  /*　終わり */
+
+
+  .nav {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+ ul {
+    font-size: 15px;
+    font-weight: lighter;
+    list-style: none;
+    display: flex;
+  }
+
+ li {
+    margin-left: 35px;
+}  
+
+
+ .menu a {
+    text-decoration:none;
+    color: 333333;
+    position: relative;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    }
+
+
+
+  .privacy {
+    position: relative;
+    max-width: 2000px;
+    margin: auto;
+    background: white;
+    padding-bottom: 0px;
+    font-size: 13px;
+    }
+  
+    a {
+      text-decoration:none;
+      color: #333333;
+    }
+  
+    .privacy a:hover {
+      text-decoration: underline;
+      }
+  
+  
+
+  
+  footer {
+    font-size: 12px;
+      text-align: center;
+      color: #333333;
+      max-width: 2000px;
+      margin: auto;
+      background: white;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      }
+  
+    
+  footer a {
+      text-decoration:none;
+      color: #333333;
+      position: relative;
+      max-width: 2000px;
+      margin: auto;
+      background: white;
+      }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/*終わり*/
+
+
+@media screen and (max-width: 1000px) {
+  /* 980px以下の画面サイズで適用されるスタイル */
+
+
+p { 
+  text-align: left;
+  margin: -2em;
+  margin-left: 30px;
+  color: #333;
+}
+
+body {
+font-size: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: auto;
+}
+
+}
+
+
+
+
+
+  /*ハンバーガーメニュー*/
+  .hamburger {
+    display: none;
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 980px) {
+    .hamburger {
+      display: flex;
+    }
+  }
+  .hamburger .bar {
+    width: 40px;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+  }
+  
+  .hamburger .bar-top {
+    transform: translate(0, -12px);
+  }
+  
+  .hamburger .bar-bottom {
+    transform: translate(0, 12px);
+  }
+  
+  .checkbox:checked ~ .hamburger .bar-middle {
+    opacity: 0;
+  }
+  
+  .checkbox:checked ~ .hamburger .bar-top {
+    transform: translate(0, 0) rotate(45deg);
+  }
+  
+  .checkbox:checked ~ .hamburger .bar-bottom {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  
+  .checkbox {
+    display: none;
+  }
+  
+  .nav-menu {
+    width: 500px;
+  }
+  @media screen and (max-width: 980px) {
+    .nav-menu {
+      position: fixed;
+      width: 280px;
+      height: 100%;
+      background: #000;
+      opacity: 0.8;
+      color: #fff;
+      top: 0;
+      left: -100%;
+      transition: all 0.5s;
+    }
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @media screen and (max-width: 980px) {
+    .nav-menu ul {
+      margin-top: 100px;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    .nav-menu li {
+      margin-bottom: 30px;
+    }
+  }
+  
+  
+  .nav-menu a {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .checkbox:checked ~ .nav-menu {
+    left: 0;
+  }
+  
+  /*終わり*/
+
+
+
+
+
+/**制作物詳細**/
+
+.container{
+  max-width: 1020px;
+  margin: 0 auto;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  width: 600px;
+  height: 800px;
+  margin: auto;
+}
+
+
+
+@media (min-width: 981px) {
+  .container{
+    display: flex;
+  } 
+}
+
+
+/*end*/

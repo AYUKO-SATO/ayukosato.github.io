@@ -640,7 +640,7 @@ letter-spacing: 0.2rem;
   padding: 0 .5em;
   background: #FFF;
   color: #5FB9F5;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 200;
 }
 .boxblue03 .inner{
@@ -679,7 +679,7 @@ letter-spacing: 0.2rem;
   padding: 0 .5em;
   background: #FFF;
   color: #5FB9F5;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 200;
   width: 31.5vw;
 }
@@ -710,6 +710,16 @@ ul.list{
   list-style-type: disc;/* リストの左側に黒丸 */
   font-size: 23px;
 }
+
+
+.details {
+  margin: auto;
+}
+
+
+
+
+
 
 }
 
@@ -832,3 +842,36 @@ ul.list{
   height: auto;
   width: auto;
 }
+
+
+
+
+
+
+
+
+
+
+/**制作物詳細**/
+
+.flex{
+  max-width: 798px;
+  margin: 0 auto;
+}
+img{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (min-width:798px) {  
+  .flex{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+  }
+  .item+.item{
+    margin-left:1.0em;
+  }
+}
+
+/*end*/
