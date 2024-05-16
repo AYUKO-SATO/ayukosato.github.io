@@ -108,7 +108,7 @@ header {
     position: relative;
     max-width: 2000px;
     margin: auto;
-    z-index: 2;
+
     
     }
   
@@ -189,15 +189,6 @@ footer {
     max-width: 100%;
     }
 
-  
-footer a {
-    text-decoration:none;
-    color: #333333;
-    position: relative;
-    max-width: 100%;
-    margin: auto;
-    background: white;
-    }
 
 
 a.btn03 {

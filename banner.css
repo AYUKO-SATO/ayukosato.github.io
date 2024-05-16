@@ -6,7 +6,7 @@ body {
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   color: #333333;
   letter-spacing: .1rem;
-  line-height: 250%;
+  line-height: 200%;
   
   }
 
@@ -126,12 +126,8 @@ header {
       margin: auto;
       background: white;
       }
+
   
-
-
-
-
-
 
 
 
@@ -278,14 +274,15 @@ h1 {
 img{
   max-width: 100%;
   height: auto;
-  width: auto;
+  width: 600px;
   display: block;
   margin: 0 auto;
 }
 
 .text {
-  width: 600px;
-  height: 500px;
+  width: 750px;
+  height: 550px;
+  margin: auto;
 }
 
 
@@ -298,3 +295,14 @@ img{
 
 
 /*end*/
+
+
+.whole {
+  text-align: center;
+  width: auto;
+  margin-bottom: 200px;
+}
+
+.image {
+height: 400px;
+}
